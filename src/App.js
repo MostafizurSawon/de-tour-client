@@ -9,7 +9,6 @@ import Register from './components/LoginAndRegistration/Register';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import './App.css'
-import About from './components/About/About';
 import AddService from './components/Services/AddService';
 import TakeService from './components/Services/TakeService';
 import MyOrders from './components/Orders/MyOrders';

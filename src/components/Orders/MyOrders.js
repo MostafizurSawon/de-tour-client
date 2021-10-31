@@ -8,7 +8,7 @@ const MyOrders = () => {
     const [services, setServices] = useState([]);
     const [isDelete, setIsDelete] = useState(null);
         useEffect(() => {
-          fetch("http://localhost:5000/login-orders")
+          fetch("https://frightful-barrow-97989.herokuapp.com/login-orders")
             .then((response) => response.json())
             .then((data) => setServices(data));
         }, [isDelete]);
@@ -18,7 +18,7 @@ const MyOrders = () => {
             // console.log(id);
             const proceed = window.confirm(`Sure you want to delete?`);
             if(proceed) {
-                fetch(`http://localhost:5000/deleteOrder/${id}`, {
+                fetch(`https://frightful-barrow-97989.herokuapp.com/deleteOrder/${id}`, {
               method: "DELETE",
               headers: { "Content-type": "application/json" },
             })

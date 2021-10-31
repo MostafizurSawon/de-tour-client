@@ -13,7 +13,7 @@ const Header = () => {
                     <Navbar.Brand>
                     <Nav.Link> 
                         <NavLink className="customLogo" activeClassName="activeStyleLogo" exact="true" to="/">
-                            <span className="logo-text-first"><i class="fas fa-house-damage"></i> De-Tour</span>
+                            <span className="logo-text-first"><i class="fas fa-jedi"></i> De-Tour</span>
                         </NavLink>
                     </Nav.Link>
                     </Navbar.Brand>

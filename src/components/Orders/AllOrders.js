@@ -7,7 +7,7 @@ const AllOrders = () => {
     const [services, setServices] = useState([]);
     const [isDelete, setIsDelete] = useState(null);
     useEffect(() => {
-      fetch("http://localhost:5000/login-orders")
+      fetch("https://frightful-barrow-97989.herokuapp.com/login-orders")
         .then((response) => response.json())
         .then((data) => setServices(data));
     }, [isDelete]);
@@ -17,7 +17,7 @@ const handleDeleteOrder = (id) => {
     // console.log(id);
     const proceed = window.confirm(`Sure you want to delete?`);
     if(proceed) {
-        fetch(`http://localhost:5000/deleteOrder/${id}`, {
+        fetch(`https://frightful-barrow-97989.herokuapp.com/deleteOrder/${id}`, {
       method: "DELETE",
       headers: { "Content-type": "application/json" },
     })
@@ -34,7 +34,7 @@ const handleDeleteOrder = (id) => {
   };
 return (
     <div>
-        Email based order total : {services.length}
+        <h2 >All user : {services.length}</h2>
         <Table striped bordered hover>
                 <thead>
                 <tr>
@@ -47,15 +47,6 @@ return (
                 </thead>
             {
                 services.map((service) => 
-                // <li>
-                //    place {service.name} <br />
-                //     {service.userName} <br />
-                //     {service.email} <br />
-                //     {service.price} <br />
-                //     {service.date} <br />
-                //     <button onClick={() => handleDeleteOrder(service._id)} className="btn btn-danger">delete</button>
-                // </li>
-
                 <tbody>
                 <tr>
                 <td>
@@ -78,7 +69,7 @@ return (
                    Address : {service.address}
                     </h6>
                 </td>
-                <td>Address :  {service.date} </td>
+                <td> {service.date} </td>
                 
                 <td>
                     <div className="bg-danger p-2 text-white">

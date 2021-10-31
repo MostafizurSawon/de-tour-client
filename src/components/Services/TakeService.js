@@ -12,24 +12,25 @@ const TakeService = () => {
     const [isUpdate, setIsUpdated] = useState(null);
     const [service, setService] = useState({});
     useEffect(() => {
-      fetch(`http://localhost:5000/singleservice/${serviceId}`)
+      fetch(`https://frightful-barrow-97989.herokuapp.com/singleservice/${serviceId}`)
         .then((res) => res.json())
         .then((data) => setService(data));
     }, [serviceId, isUpdate]);
   
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, reset } = useForm();
 
 
 
     const onSubmit = (data) => {
       console.log(data);
-      fetch("http://localhost:5000/add-orders", {
+      fetch("https://frightful-barrow-97989.herokuapp.com/add-orders", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(data),
       })
         .then((res) => res.json())
-        .then((result) => console.log(result));
+        .then((result) => console.log(result))
+        reset();
     };
 
 

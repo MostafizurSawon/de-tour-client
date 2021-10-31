@@ -6,7 +6,7 @@ const Area = () => {
     return (
         <div className="area">
             <Container>
-                <h1 className="text-center my-5">Our Coverage</h1>
+                <h1 className="text-center banner-text my-5">Our Coverage</h1>
             <Row className="area-height">
                 <Col sm={6}>
                 <Row>
