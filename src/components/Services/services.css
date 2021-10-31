@@ -1,0 +1,27 @@
+.red {
+  background-color: red;
+  color: white;
+}
+
+.cyan {
+  background-color: rgb(9, 155, 155);
+  color: white;
+}
+.green {
+  background-color: rgb(10, 230, 94);
+  color: white;
+}
+
+.default {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.bg-custom {
+  background-image: url(https://image.freepik.com/free-photo/creative-shot-male-with-his-feet-water-st-maarten-caribbean_181624-4442.jpg);
+  background-size: cover;
+}
+
+.image-height {
+  height: 250px;
+}

@@ -1,0 +1,36 @@
+.area {
+  height: auto;
+}
+
+.area-height {
+  height: auto;
+}
+
+.area-btn {
+  border: 0;
+  color: white;
+  border-radius: 30px;
+  background-color: rgb(13, 167, 179);
+  padding: 3px 18px;
+}
+
+.bg-area-one {
+  width: 220px;
+  background-image: url(https://image.freepik.com/free-photo/back-view-island-outdoors-tree-standing_1122-2293.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 370px;
+}
+.bg-area-two {
+  width: 220px;
+  background-image: url(https://img.freepik.com/free-photo/full-shot-people-jumping_23-2149153254.jpg?size=338&ext=jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 370px;
+}
+
+.area-pic-one {
+  width: 400px;
+}
