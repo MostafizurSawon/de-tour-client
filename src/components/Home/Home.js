@@ -10,7 +10,6 @@ const Home = () => {
         <>
             <Banner/>
             <div className="my-5"></div>
-
             <Area></Area>
             <Services/>
             <AboutTravel/>

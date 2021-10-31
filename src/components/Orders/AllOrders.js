@@ -6,6 +6,13 @@ const AllOrders = () => {
   const { user } = useAuth();
     const [services, setServices] = useState([]);
     const [isDelete, setIsDelete] = useState(null);
+    const [title, setTitle] = useState("Click here");
+
+    const Title = () => {
+      const [title, setTitle] = useState("Click here");
+   
+      return <h1 onClick={() => setTitle("New title")}>{title}</h1>;
+   }
     useEffect(() => {
       fetch("https://frightful-barrow-97989.herokuapp.com/login-orders")
         .then((response) => response.json())
@@ -73,7 +80,7 @@ return (
                 
                 <td>
                     <div className="bg-danger p-2 text-white">
-                        {service.status}
+                    {service.status}
                     </div>
                     
                 </td>

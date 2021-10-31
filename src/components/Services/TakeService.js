@@ -30,6 +30,7 @@ const TakeService = () => {
       })
         .then((res) => res.json())
         .then((result) => console.log(result))
+        alert("Successfully Booked!!")
         reset();
     };
 

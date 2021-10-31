@@ -14,7 +14,6 @@ import TakeService from './components/Services/TakeService';
 import MyOrders from './components/Orders/MyOrders';
 import AllOrders from './components/Orders/AllOrders';
 import Dashboard from './components/Dashboard/Dashboard';
-import Area from './components/Home/Area/Area';
 
 function App() {
   return (
@@ -47,6 +46,7 @@ function App() {
           <PrivateRoute exact path="/services/:serviceId">
             <TakeService></TakeService>
           </PrivateRoute>
+          
           <Route path="/register">
             <Register></Register>
           </Route>
