@@ -64,10 +64,10 @@ return (
                 </td>
                 <td>
                     <h6>
-                        Name :  {user.displayName} 
+                        Name :  {service.userName} 
                     </h6>
                     <h6>
-                        Email :  {user.email} 
+                        Email :  {service.email} 
                     </h6>
                     <h6>
                         Phone : {service.phone}

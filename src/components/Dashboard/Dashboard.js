@@ -8,11 +8,11 @@ const Dashboard = () => {
     const [control, setControl] = useState("myOrders");
     return (
         <div className="admin-container">
-      <div className="dashboard">
+        <div className="dashboard">
         <div className="admin-box">
-          <div className="row admin-container">
-            <div className="col-md-3 ">
-              <div className="admin-area p-3">
+          <div className="row admin-container my-3">
+            <div className="col-md-3">
+              <div className="admin-area p-3 ms-2">
                 <h2 className="pt-4">Dashboard</h2>
                 <div className="all-menu mt-5">
                   <li
@@ -37,7 +37,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="col-md-9 text-center d-flex align-items-center">
-              <div className="bg-light px-3 py-2 rounded shadow">
+              <div className="bg-light w-100 px-3 py-2 me-3 rounded shadow">
                 {control === "myOrders" && <MyOrders></MyOrders>}
                 {control === "allOrders" && <AllOrders></AllOrders>}
                 {control === "addServices" && <AddService></AddService>}

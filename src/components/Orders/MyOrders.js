@@ -52,7 +52,7 @@ const MyOrders = () => {
             
             {services.filter(service => service.email === user.email)
              .map(service => (
-                 <tbody>
+                 <tbody key={service._id}>
                     <tr>
                     <td>
                         {service.name}
