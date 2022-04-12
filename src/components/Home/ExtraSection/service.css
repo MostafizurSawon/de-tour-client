@@ -63,4 +63,5 @@
 .seq {
   height: 400px;
   width: 50vw !important;
+  border-radius: 20px;
 }
