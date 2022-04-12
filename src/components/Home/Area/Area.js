@@ -38,7 +38,7 @@ const Area = () => {
                             <Col sm={6}>
                                 <div className="d-flex justify-content-center align-items-center">
                                     <div className="w-100 mt-2">
-                                        <h6>photo genic</h6>
+                                        <h6>Photo genic</h6>
                                         <small className="text-muted">
                                             <i class="fas fa-map-marker-alt me-2"></i>
                                              Tokyo

@@ -16,7 +16,7 @@ const Services = () => {
       
 
     return (
-        <div>
+        <div className="bg-service pb-3">
             <div className="mt-5 text-center bg-info text-light bold py-5">
               <h1 className="banner-text">Our Services</h1>
             </div>

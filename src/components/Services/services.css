@@ -25,3 +25,12 @@
 .image-height {
   height: 250px;
 }
+
+.bg-service {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(https://images.pexels.com/photos/2105937/pexels-photo-2105937.jpeg)
+      fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

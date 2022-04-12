@@ -1,23 +1,25 @@
-.custom-banner {
+.custom-banner2 {
   /* height: 540px; */
+  width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url(../../../images/banner.jpg) fixed;
+    url(../../../images/tour.jpg) fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 0px;
 }
 
-.banner-container {
+.banner2-container {
   height: 600px;
 }
 
-.banner-text .sc-bczRLJ {
+.banner2-text .sc-bczRLJ {
   color: white;
   font-weight: 800;
   font-size: 55px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-.banner-p .sc-bczRLJ {
+.banner2-p .sc-bczRLJ {
   color: rgb(86, 219, 34);
   font-weight: 800;
   font-size: 35px;
@@ -29,7 +31,7 @@
   color: rgb(245, 239, 239);
 } */
 
-.banner-button {
+.banner2-button {
   background-color: white;
   padding: 20px 40px;
   border: 0;
@@ -37,7 +39,7 @@
   margin: 20px 0;
 }
 
-.banner-button:hover {
+.banner2-button:hover {
   background-color: rgb(11, 153, 153);
   color: white;
 }

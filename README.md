@@ -26,3 +26,9 @@ In the project directory, you can run:
 - express.js
 - mongodb
 - heroku hosting for server side
+
+
+<!-- 
+I deleted my C:/Users/{username}/AppData/Roaming/npm and C:/Users/{username}/AppData/Roaming/npm-cache and reinstalled global npm modules, and the problem ceased.
+firebase login issue
+ -->
