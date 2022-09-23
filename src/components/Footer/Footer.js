@@ -21,7 +21,7 @@ const Footer = () => {
                         <img src="https://image.freepik.com/free-photo/friends-having-fun-traveling-by-car_23-2148771823.jpg" alt="" className="image-fluid w-100" />
                     </Col>
                     <Col sm={7}>
-                        <h6 className="text-muted">October 27, 2021</h6>
+                        <h6 className="text-muted">june 27, 2022</h6>
                         <a href="http://www.google.com">Group of new Generation</a>
                     </Col>
                     
@@ -69,10 +69,10 @@ const Footer = () => {
             <div className="bg-dark py-3 d-flex justify-content-around align-items-center">
                 <h6>© Copyright by De-TOUR 2021</h6>
                 <div className="">
-                    <i className="fab fa-facebook me-3 icon"></i>
-                    <i className="fab fa-instagram me-3"></i>
-                    <i className="fab fa-tiktok me-3"></i>
-                    <i className="fab fa-twitter me-3"></i>
+                    <i className="fab fa-facebook me-4 icon"></i>
+                    <i className="fab fa-instagram me-4"></i>
+                    <i className="fab fa-tiktok me-4"></i>
+                    <i className="fab fa-twitter me-4"></i>
                     <i className="fab fa-pinterest-square"></i>
                 </div>
             </div>

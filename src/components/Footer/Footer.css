@@ -24,5 +24,6 @@ a:hover{
 
 .fab:hover{
     color: blue;
-    font-size: 17px;
+    cursor: pointer;
+    transform: scale(2.2);
 }
